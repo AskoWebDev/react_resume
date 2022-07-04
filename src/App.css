@@ -1,38 +1,133 @@
-.App {
+.header_container{
+   border: 1px solid black;
+   text-align: center;
+   background-color: rgba(0, 0, 0, .1);
+}
+
+.header_container p {
+  font-size: 15px;
+}
+
+/* contacts */
+
+.contact{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact > p {
+  font-size: 10px;
+}
+
+.contact .number::before {
+  content: url(/home/asko/Downloads/smartphone-call.png);
+}
+
+.contact .email::before {
+  content: url(/home/asko/Downloads/gmail.png);
+  margin-right: 4px;
+}
+
+.contact .adress::before {
+  content: url(/home/asko/Downloads/home.png);
+  margin-right: 4px;
+}
+
+/* Body */
+
+.body_container {
+  text-align: center;
+  margin-top: 1rem;
+  /*position: relative;*/
+}
+
+.knowledge {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  padding-top: 1rem;
+
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  margin: 0.3rem 0;
+}
+
+.education, ul{
+  font-size: 10px;
+}
+
+.education {
+  border: 1px solid rgba(210, 215, 211, 1.0);
+  height: 90%;
+  background-color: rgba(210, 215, 211, 1.0);
+  
+}
+
+.list_of_skills {
+  border: 1px solid rgba(210, 215, 211, 1.0);
+  height: 90%;
+  background-color: rgba(210, 215, 211, 1.0);
+}
+
+.profile {
+  border: 1px solid yellow;
+  background-color: yellow;
+  margin: 0 40%;
+  border-radius: 3px;
+}
+
+.engaging_text {
+  font-size: 12px;
+  border: 1px solid rgba(210, 215, 211, 1.0);
+  background-color: rgba(210, 215, 211, 1.0);
+  margin: 1rem;
+  border-radius: 3px;
+  padding: 0.2rem;
+  word-spacing: 1px;
+  line-height: 1.4;
+}
+
+.education_text, .skills_text {
+  border: 1px solid yellow;
+  width: 18rem;
+  background-color: yellow;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 600px) {
+  .education_text, .skills_text {
+    border: 1px solid yellow;
+    width: 10rem;
+    border-radius: 3px;
+  }
+}
+
+/* Footer */
+
+.footer_container {
+  margin-top: 2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer_text {
+  border: 1px solid yellow;
+  margin: 0 20%;
+  background-color: yellow;
+  border-radius: 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.description {
+  margin: 1rem 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description_text {
+  border: 1px solid rgba(210, 215, 211, 1.0);
+  background-color: rgba(210, 215, 211, 1.0);
+  margin: 1rem;
+  border-radius: 3px;
 }
