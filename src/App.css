@@ -5,7 +5,7 @@
 }
 
 .header_container p {
-  font-size: 15px;
+  font-size: 30px;
 }
 
 /* contacts */
@@ -16,7 +16,7 @@
 }
 
 .contact > p {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .contact .number::before {
@@ -38,7 +38,6 @@
 .body_container {
   text-align: center;
   margin-top: 1rem;
-  /*position: relative;*/
 }
 
 .knowledge {
@@ -46,11 +45,11 @@
   justify-content: space-around;
   justify-items: center;
   padding-top: 1rem;
-
 }
 
 ul {
   padding: 0;
+  list-style: none;
 }
 
 ul li {
@@ -58,7 +57,8 @@ ul li {
 }
 
 .education, ul{
-  font-size: 10px;
+  font-size: 25px;
+
 }
 
 .education {
@@ -79,10 +79,11 @@ ul li {
   background-color: yellow;
   margin: 0 40%;
   border-radius: 3px;
+  font-size: 30px;
 }
 
 .engaging_text {
-  font-size: 12px;
+  font-size: 25px;
   border: 1px solid rgba(210, 215, 211, 1.0);
   background-color: rgba(210, 215, 211, 1.0);
   margin: 1rem;
@@ -94,16 +95,18 @@ ul li {
 
 .education_text, .skills_text {
   border: 1px solid yellow;
-  width: 18rem;
+  width: 35rem;
   background-color: yellow;
   border-radius: 3px;
+  font-size: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .education_text, .skills_text {
     border: 1px solid yellow;
-    width: 10rem;
+    width: 15rem;
     border-radius: 3px;
+    
   }
 }
 
@@ -116,13 +119,15 @@ ul li {
 
 .footer_text {
   border: 1px solid yellow;
-  margin: 0 20%;
+  margin: 1rem 20%;
   background-color: yellow;
   border-radius: 3px;
+  font-size: 30px;
 }
 
 .description {
-  margin: 1rem 0;
+  margin: 2rem 0;
+  font-size: 25px;
 }
 
 .description_text {
@@ -130,4 +135,54 @@ ul li {
   background-color: rgba(210, 215, 211, 1.0);
   margin: 1rem;
   border-radius: 3px;
+  font-size: 25px;
+}
+
+/* Hobbies */
+
+.hobby_container {
+  text-align: center;
+}
+
+.hobby_text {
+  border: 1px solid yellow;
+  margin: 3rem 20%;
+  background-color: yellow;
+  border-radius: 3px;
+  font-size: 30px;
+}
+
+.hobby_list {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgba(210, 215, 211, 1.0);
+  background-color: rgba(210, 215, 211, 1.0);
+  margin: 1rem;
+  border-radius: 3px;
+  font-size: 25px;
+}
+
+.chess::before {
+  content: url('/public/chess.png');
+  margin-right: 4px;
+}
+
+.programming::before {
+  content: url('/public/binary-code.png');
+  margin-right: 4px;
+}
+
+.physics::before {
+  content: url('/public/atom(1).png');
+  margin-right: 4px;
+}
+
+.math::before {
+  content: url('/public/pi-mathematical-constant-symbol.png');
+  margin-right: 4px;
+}
+
+.literature::before {
+  content: url('/public/books.png');
+  margin-right: 4px;
 }

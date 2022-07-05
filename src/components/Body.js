@@ -9,8 +9,10 @@ function Skills() {
 					EDUCATION
 				</div>
 				<div className="education">
-					<p>School #20 in Odessa</p>
-					<p>English courses</p>
+					<ul>
+						<li>School #20 in Odessa</li>
+						<li>English courses</li>
+					</ul>
 				</div>
 			</div>
 			<div className="skills">

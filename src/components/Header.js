@@ -4,7 +4,7 @@ import React from 'react'
 function Header() {
 	return (
 		<div className="header_container">
-			<h3>Mkrtchyan Asko</h3>
+			<h1>Mkrtchyan Asko</h1>
 			<p>web developer</p>
 		</div>
 	);
