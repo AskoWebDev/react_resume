@@ -20,16 +20,16 @@
 }
 
 .contact .number::before {
-  content: url(/home/asko/Downloads/smartphone-call.png);
+  content: url(/public/smartphone-call.png);
 }
 
 .contact .email::before {
-  content: url(/home/asko/Downloads/gmail.png);
+  content: url(/public/gmail.png);
   margin-right: 4px;
 }
 
 .contact .adress::before {
-  content: url(/home/asko/Downloads/home.png);
+  content: url(/public/home.png);
   margin-right: 4px;
 }
 
