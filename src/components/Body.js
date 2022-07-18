@@ -25,8 +25,8 @@ function Skills() {
 						<li>CSS</li>
 						<li>Javascript</li>
 						<li>ReactJs</li>
-						<li>Pyhton</li>
-						<li>Django</li>
+						<li>Pyhton(beginner)</li>
+						<li>Django(beginner)</li>
 					</ul>
 				</div>
 			</div>
